@@ -171,6 +171,10 @@ p.post-desc {
   width: 96px;
   height: 96px;
   margin: -.4rem 1rem 0 $spacer;
+
+  img {
+    border-radius: 150px;
+  }
 }
 
 @include mq-up(md) {
