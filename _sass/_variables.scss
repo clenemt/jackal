@@ -11,13 +11,17 @@ $blue:                      #4072AF;
 $light-blue:                lighten($blue, 45%);
 $dark-blue:                 darken($blue, 20%);
 
-$ligt-yellow:               #fcf8e3;
+$green:                     #40AF72;
+$light-green:               lighten($green, 45%);
+$dark-green:                darken($green, 20%);
+
+$light-yellow:              #fcf8e3;
 
 $red:                       #bd4147;
 
 // COLORS - BRAND ------------------
-$brand-color:               $blue;
-$brand-light-color:         $light-blue;
+$brand-color:               $green;
+$brand-light-color:         $light-green;
 $brand-secondary:           $gray-dark;
 $text-muted:                $gray-light;
 
@@ -29,7 +33,7 @@ $body-color:                $gray-dark;
 // GLOBALS - LINKS ------------------
 $link-color:                $brand-color;
 $link-decoration:           none;
-$link-hover-color:          $dark-blue;
+$link-hover-color:          $dark-green;
 $link-hover-decoration:     underline;
 
 // GLOBALS - SPACERS ------------------

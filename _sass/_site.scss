@@ -22,6 +22,7 @@
 .site-logo {
   width: 3rem;
   height: 3rem;
+  border-radius: 100px;
 }
 
 .site-nav {
@@ -40,6 +41,7 @@
   padding: 0 .25rem;
   margin-right: $spacer0;
   transition: background 0.1s ease-out;
+  border-radius: 5px;
 
   &:hover {
     text-decoration: none;
