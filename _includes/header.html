@@ -10,7 +10,7 @@
       {% if page.url contains link.url %}
         {% assign current = 'class="current"' %}
       {% endif %}
-    <a href="{{ link.url | prepend: site.baseurl }}" {{ current }} {% if link.desc %} title="{{ link.desc }}" {% endif %}>{{ link.title }}</a>
+    <a href="{{ link.url | relative_url }}" {{ current }} {% if link.desc %} title="{{ link.desc }}" {% endif %}>{{ link.title }}</a>
     {% endfor %}
   </nav>
 
